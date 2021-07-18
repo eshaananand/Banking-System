@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
@@ -20,12 +21,14 @@
         android:layout_below="@id/logo"
         android:layout_marginTop="30dp"
         android:layout_centerHorizontal="true"
-        android:text="BANKING SYSTEM"
+        android:text="SPARK BANKING"
         android:textAllCaps="false"
-        android:textColor="#00b2ff"
+        android:textColor="#01937C"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:visibility="invisible"></TextView>
+        android:visibility="invisible">
+
+    </TextView>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -38,21 +41,25 @@
             android:id="@+id/designed"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Designed by  "
+            android:text="BY - "
             android:textSize="15sp"
             android:textStyle="bold"
-            android:textColor="#00b2ff"
-            android:visibility="invisible"></TextView>
+            android:textColor="#77ACF1"
+            android:visibility="invisible">
+
+        </TextView>
 
         <TextView
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ALA V V N L MOUNIKA"
+            android:text="ESHAAN ANAND"
             android:textSize="15sp"
             android:textStyle="bold"
-            android:textColor="#00b2ff"
-            android:visibility="invisible"></TextView>
+            android:textColor="#F54748"
+            android:visibility="invisible">
+
+        </TextView>
     </LinearLayout>
 
 </RelativeLayout>

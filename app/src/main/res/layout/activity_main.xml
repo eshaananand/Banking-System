@@ -23,8 +23,10 @@
         android:paddingHorizontal="15dp"
         android:text="View Users"
         android:textAllCaps="false"
-        android:textColor="#fff"
+        android:textColor="#293B5F"
         android:textSize="15dp"
-        android:textStyle="bold"></Button>
+        android:textStyle="bold">
+
+    </Button>
 
 </LinearLayout>

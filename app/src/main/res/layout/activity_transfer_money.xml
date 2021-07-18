@@ -9,6 +9,8 @@
         android:id="@+id/enter_money"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal|number"></EditText>
+        android:inputType="numberDecimal|number">
+
+    </EditText>
 
 </RelativeLayout>
